@@ -1,0 +1,29 @@
+.container {
+    background-color: ivory;
+    padding: 0 10px;
+}
+
+.topnav {
+ background-color: #333333;
+ overflow: hidden;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.topnav a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: chartreuse;
+    color: darkblue;
+}
