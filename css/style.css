@@ -4,8 +4,9 @@
 }
 
 .topnav {
- background-color: #333333;
- overflow: hidden;
+    background-color: #333333;
+    overflow: hidden;
+    display: flex;
 }
 
 .topnav a {
@@ -15,9 +16,8 @@
     font-size: 18px;
     text-decoration: none;
     text-align: center;
-    display: inline-block;
+    
 }
-
 .topnav a:hover {
     background-color: lightgreen;
     color: black;
